@@ -1,0 +1,28 @@
+# --- Environment Files (PINAKA-IMPORTANTE) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Dependencies ---
+node_modules/
+
+# --- Build & Output Folders ---
+dist/
+build/
+out/
+.next/
+.nuxt/
+
+# --- Docker & Logs ---
+*.log
+docker-compose.override.yml
+# Kung may sensitive data sa docker-compose.yml, 
+# mainam na gumawa ng 'docker-compose.prod.yml' at i-ignore ito.
+
+# --- System Files ---
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/ ganito talaga kahaba ilalagay ko sa .gitignore
