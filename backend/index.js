@@ -8,7 +8,7 @@ const app = express();
 
 // I-configure ang CORS para payagan lang ang iyong Vercel frontend
 const corsOptions = {
-  origin: "https://i-encode.vercel.app/", 
+  origin: "https://i-encode.vercel.app", 
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 };
